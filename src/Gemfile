@@ -49,8 +49,9 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 
-  gem 'rubocop', '~> 0.55.0'
   gem 'overcommit', '~> 0.45.0'
+  gem 'rubocop', '~> 0.55.0'
+  gem 'fasterer', '~> 0.4.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -19,6 +19,10 @@ PreCommit:
   AuthorName:
     enabled: false
 
+  Fasterer:
+    enabled: true
+    on_warn: fail
+
   RuboCop:
     enabled: true
     on_warn: fail
