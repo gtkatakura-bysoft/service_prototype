@@ -55,6 +55,7 @@ group :development do
   gem 'bundler-audit', '~> 0.6.0'
   gem 'reek', '~> 4.8.1'
   gem 'rails_best_practices', '~> 1.19.2'
+  gem 'brakeman', '~> 4.2.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
