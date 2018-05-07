@@ -54,6 +54,7 @@ group :development do
   gem 'fasterer', '~> 0.4.1'
   gem 'bundler-audit', '~> 0.6.0'
   gem 'reek', '~> 4.8.1'
+  gem 'rails_best_practices', '~> 1.19.2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

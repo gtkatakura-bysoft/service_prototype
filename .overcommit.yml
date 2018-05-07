@@ -26,6 +26,10 @@ PreCommit:
     enabled: true
     on_warn: fail
 
+  RailsBestPractices:
+    enabled: true
+    on_warn: fail
+
   Reek:
     enabled: true
     on_warn: fail
