@@ -30,6 +30,10 @@ PreCommit:
     enabled: true
     on_warn: fail
 
+  RailsSchemaUpToDate:
+    enabled: true
+    on_warn: fail
+
   Reek:
     enabled: true
     on_warn: fail
