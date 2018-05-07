@@ -19,7 +19,14 @@ PreCommit:
   AuthorName:
     enabled: false
 
+  BundleAudit:
+    enabled: true
+
   Fasterer:
+    enabled: true
+    on_warn: fail
+
+  Reek:
     enabled: true
     on_warn: fail
 
