@@ -1,0 +1,12 @@
+Style/Documentation:
+  Enabled: false
+
+AllCops:
+  Exclude:
+    - 'src/bin/**/*'
+    - 'src/config/**/*'
+    - 'src/db/**/*'
+    - 'src/test/application_system_test_case.rb'
+    - 'src/test/test_helper.rb'
+    - 'src/Rakefile'
+    - 'src/Gemfile'
